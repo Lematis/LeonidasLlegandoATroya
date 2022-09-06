@@ -1,0 +1,15 @@
+body{
+    display: grid;
+    grid-template-columns:  20% 60% 20%;
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-template-areas: 
+    ". . ."
+    ". PRINCIPAL ."
+    ". . .";
+}
+
+.PRINCIPAL{
+    background-color: gold;
+    grid-area: PRINCIPAL;
+}
+
